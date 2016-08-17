@@ -1,6 +1,6 @@
 # config
-cover: ./img/codered2.jpg
-logo: ./img/doge.gif
+cover: /public/img/codered2.jpg
+logo: /public/img/doge.gif
 top_saying:
 - title: RQE:CC
 - content: 代号红皇后：难民营 开发者博客
