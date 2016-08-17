@@ -29,6 +29,41 @@
 
 <section id="intro">
     <div class="container">
+        <div class="proc col-md-8 col-md-offset-2">
+            <table style="width: 100%; " border="0" cellpadding="0" cellspacing="1">
+                <caption><strong>开发进度</strong></caption>
+                <tbody>
+                    <tr>
+                        <th style=" text-align: center; ">当前版本</th>
+                        <td style=" text-align: center; width: 30%; "><strong><%- theme.proc.currVer %></strong></td>
+                        <th style=" text-align: center; width: 80px; ">迭代</th>
+                        <td style=" text-align: center; width: 30%; "><strong><%- theme.proc.iterVer %></strong></td>
+                        <th style=" text-align: center; width: 80px; ">上架平台</th>
+                        <td style=" text-align: center; "><strong>Steam</strong></td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" style=" text-align: center; ">            
+                            <img class="proc-pic" src="<%- theme.proc.img %>" alt="RQE:CC" width="320">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th style="width: 80px; text-align: center; ">目标平台</th>
+                        <td colspan="5"><%- theme.proc.platform %></td>
+                    </tr>
+                    <tr>
+                        <th style="width: 80px; text-align: center; ">当前体积</th>
+                        <td colspan="5"><%- theme.proc.size %></td>
+                    </tr>
+                    <tr>
+                        <th style="width: 80px; text-align: center; ">开发进度</th>
+                        <td colspan="4" rowspan="1" style=" ">
+                            <div style="background:#666; color:#FFF; width:100%; text-align:center;"><%- theme.proc.proc %></div>
+                        </td>
+                        <td style=" text-align: center; " bgcolor="#EEEEEE"><%- theme.proc.date %></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <% page.posts.each(function(post) { %>
         <div class="row">
             <div class="col-md-8 col-md-offset-2 opening-statement">

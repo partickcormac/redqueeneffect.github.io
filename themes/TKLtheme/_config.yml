@@ -12,6 +12,17 @@ rss: /atom.xml
 
 highlightjs: vs
 
+##############
+proc:
+  currVer: 0
+  iterVer: 0
+  img: /public/img/proc.jpg
+  platform: 233
+  size: 450k
+  proc: 0%
+  date: 2016-8-17
+###############
+
 #Works
 works:
 - works_name: AAA
