@@ -14,13 +14,13 @@ highlightjs: vs
 
 ##############
 proc:
-  currVer: 0
+  currVer: DEV
   iterVer: 0
   img: /public/img/proc.jpg
-  platform: 233
-  size: 450k
-  proc: 0%
-  date: 2016-8-17
+  platform: Windows NT
+  size: 300M
+  proc: 1%
+  date: 2016-8-22
 ###############
 
 #Works
